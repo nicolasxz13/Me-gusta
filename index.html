@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <title>Likes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Network</h1>
+        </div>
+    </nav>
+    <header>
+        <h2>Your Feed</h2>
+    </header>
+    <main>
+        <section>
+            <img src="./icons/user-circle.png" alt="user icon">
+            <a href="#">Add on avatar</a>
+            <p>James Doe</p>
+        </section>
+        <aside>
+            <div class="block">
+                <div class="headerblock">
+                    <p>Neil M</p>
+                    <p><span id="like_neil">9</span> like(s)</p>
+                    <button type="button" class="btn" onclick="ilike('neil')">
+                        Like
+                    </button>
+                </div>
+                <div class="descriptionblock">
+                    I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+                </div>
+            </div>
+            <div class="block">
+                <div class="headerblock">
+                    <p>Nichole K</p>
+                    <p><span id="like_nichole">12</span> like(s)</p>
+                    <button type="button" class="btn" onclick="ilike('nichole')">
+                        Like
+                    </button>
+                </div>
+                <div class="descriptionblock">
+                    Just finished my <a href="#">next comic</a>, check it out
+                </div>
+            </div>
+            <div class="block">
+                <div class="headerblock">
+                    <p>Jim R</p>
+                    <p><span id="like_jim">9</span> like(s)</p>
+                    <button type="button" class="btn" onclick="ilike('jim')">
+                        Like
+                    </button>
+                </div>
+                <div class="descriptionblock">
+                    I can't stop listening to the <a href="#">new album.</a>Who else is linking it?
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
